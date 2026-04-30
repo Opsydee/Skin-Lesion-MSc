@@ -1,0 +1,30 @@
+data:
+  image_size: 224
+  batch_size: 32
+  num_workers: 4
+  train_csv: data/splits/train.csv
+  val_csv: data/splits/val.csv
+  test_csv: data/splits/test.csv
+  apply_hair_removal: true
+
+model:
+  architecture: efficientnet_b3   # options: efficientnet_b3, resnet50
+  num_classes: 7
+  pretrained: true
+
+training:
+  epochs: 30
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  seed: 42
+  checkpoint_dir: outputs/models/
+
+xai:
+  gradcam_target_layer: features[-1]
+  lime_num_samples: 1000
+  shap_background_samples: 100
+  attribution_threshold: 0.2
+
+logging:
+  wandb_project: skin_lesion_msc
+  wandb_entity: your_username   # replace with your W&B username
