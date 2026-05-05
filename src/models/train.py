@@ -14,7 +14,7 @@ from src.utils.dataset import create_dataloaders
 from src.preprocessing.class_balancing import compute_class_weights
 from src.utils.shap_background import generate_and_save_background
 
-def train_model(model: nn.Module, train_loader: DataLoader, val_loader: DataLoader, config: dict) -> dict:
+def train_model(model: nn.Module, train_loader: DataLoader, val_loader: DataLoader, config: dict, resume: bool = False) -> dict:
     """
     Train and validate the model.
     """
@@ -56,12 +56,28 @@ def train_model(model: nn.Module, train_loader: DataLoader, val_loader: DataLoad
     )
     wandb.watch(model, criterion, log="all", log_freq=10)
 
+    start_epoch = 0
     best_val_auc = 0.0
     history = {'train_loss': [], 'val_loss': [], 'val_acc': [], 'val_auc': []}
 
-    print(f"Starting training on {device} for {epochs} epochs...")
+    if resume:
+        latest_checkpoint_path = os.path.join(checkpoint_dir, "latest_checkpoint.pth")
+        if os.path.exists(latest_checkpoint_path):
+            print(f"Resuming from checkpoint: {latest_checkpoint_path}")
+            checkpoint = torch.load(latest_checkpoint_path, map_location=device)
+            model.load_state_dict(checkpoint['model_state_dict'])
+            optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+            scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+            start_epoch = checkpoint['epoch']
+            if 'best_val_auc' in checkpoint:
+                best_val_auc = checkpoint['best_val_auc']
+            print(f"Resumed at epoch {start_epoch} with Best Val AUC: {best_val_auc:.4f}")
+        else:
+            print("No latest_checkpoint.pth found. Starting from scratch.")
 
-    for epoch in range(epochs):
+    print(f"Starting training on {device} from epoch {start_epoch} to {epochs}...")
+
+    for epoch in range(start_epoch, epochs):
         # Training Phase
         model.train()
         train_loss = 0.0
@@ -136,6 +152,17 @@ def train_model(model: nn.Module, train_loader: DataLoader, val_loader: DataLoad
             }, checkpoint_path)
             print(f"Saved new best model with Val AUC: {best_val_auc:.4f}")
 
+        # Save latest checkpoint for resuming
+        latest_path = os.path.join(checkpoint_dir, "latest_checkpoint.pth")
+        torch.save({
+            'epoch': epoch + 1,
+            'model_state_dict': model.state_dict(),
+            'optimizer_state_dict': optimizer.state_dict(),
+            'scheduler_state_dict': scheduler.state_dict(),
+            'best_val_auc': best_val_auc,
+            'config': config
+        }, latest_path)
+
     print("Training complete. Generating SHAP background tensor...")
     shap_bg_path = os.path.join(checkpoint_dir, "shap_background.pt")
     generate_and_save_background(train_loader, num_samples=100, save_path=shap_bg_path)
@@ -147,6 +174,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Train Skin Lesion Model")
     parser.add_argument("--config", type=str, default="configs/config.yaml", help="Path to config file")
+    parser.add_argument("--resume", action="store_true", help="Resume from latest checkpoint")
     args = parser.parse_args()
 
     # Set seeds
@@ -176,4 +204,4 @@ if __name__ == "__main__":
         raise ValueError(f"Unknown architecture: {arch}")
 
     # Train
-    train_model(model, train_loader, val_loader, config)
+    train_model(model, train_loader, val_loader, config, resume=args.resume)
