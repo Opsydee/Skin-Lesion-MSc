@@ -5,8 +5,8 @@
     "mean_pointing_game": 0.57
   },
   "lime": {
-    "mean_iou": 0.14708901512687148,
-    "std_iou": 0.1247427330733336,
-    "mean_pointing_game": 0.14
+    "mean_iou": 0.141898165860274,
+    "std_iou": 0.12626391312396845,
+    "mean_pointing_game": 0.1
   }
 }
