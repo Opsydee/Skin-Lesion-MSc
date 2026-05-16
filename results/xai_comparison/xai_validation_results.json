@@ -1,0 +1,1009 @@
+{
+  "ResNet50": {
+    "gradcam": [
+      {
+        "iou": 0.006802721088435374,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012706"
+      },
+      {
+        "iou": 0.00031486146095717883,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010192"
+      },
+      {
+        "iou": 0.0011338404119620163,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010017"
+      },
+      {
+        "iou": 0.0042796005706134095,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013000"
+      },
+      {
+        "iou": 0.004042690815006468,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013166"
+      },
+      {
+        "iou": 0.001905165114309907,
+        "pointing_game": 1.0,
+        "image": "ISIC_0003308"
+      },
+      {
+        "iou": 0.0005541701302299807,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012332"
+      },
+      {
+        "iou": 0.004918032786885246,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014291"
+      },
+      {
+        "iou": 0.00045356220780126997,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014729"
+      },
+      {
+        "iou": 0.004750593824228029,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000012"
+      },
+      {
+        "iou": 0.0034567901234567903,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012855"
+      },
+      {
+        "iou": 0.006153846153846154,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012789"
+      },
+      {
+        "iou": 0.006971677559912854,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014190"
+      },
+      {
+        "iou": 0.00615542446781226,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013982"
+      },
+      {
+        "iou": 0.00032658393207054214,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009083"
+      },
+      {
+        "iou": 0.002478753541076487,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010237"
+      },
+      {
+        "iou": 0.0015437152079337607,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014898"
+      },
+      {
+        "iou": 0.0010143612193689606,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010332"
+      },
+      {
+        "iou": 0.009636443276390714,
+        "pointing_game": 1.0,
+        "image": "ISIC_0016066"
+      },
+      {
+        "iou": 0.00018793459875963165,
+        "pointing_game": 1.0,
+        "image": "ISIC_0010100"
+      },
+      {
+        "iou": 0.0032094142818935543,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015034"
+      },
+      {
+        "iou": 0.006134969325153374,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012679"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013670"
+      },
+      {
+        "iou": 0.007335490830636462,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015129"
+      },
+      {
+        "iou": 0.001225865767698437,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014393"
+      },
+      {
+        "iou": 0.0009885032771032557,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012510"
+      },
+      {
+        "iou": 0.012318029115341545,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013962"
+      },
+      {
+        "iou": 0.004383561643835616,
+        "pointing_game": 1.0,
+        "image": "ISIC_0010263"
+      },
+      {
+        "iou": 0.005005561735261402,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013487"
+      },
+      {
+        "iou": 0.0002537555826228177,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000537"
+      },
+      {
+        "iou": 0.002404196415561708,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014800"
+      },
+      {
+        "iou": 0.0019453312051077414,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012382"
+      },
+      {
+        "iou": 0.005892057506481263,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012806"
+      },
+      {
+        "iou": 0.0009289363678588017,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012086"
+      },
+      {
+        "iou": 0.003302146395156852,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015158"
+      },
+      {
+        "iou": 0.016541353383458645,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013025"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012965"
+      },
+      {
+        "iou": 0.005558643690939411,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000232"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015941"
+      },
+      {
+        "iou": 0.003959524857017158,
+        "pointing_game": 0.0,
+        "image": "ISIC_0016057"
+      },
+      {
+        "iou": 0.004604051565377533,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014428"
+      },
+      {
+        "iou": 0.001885979092574631,
+        "pointing_game": 1.0,
+        "image": "ISIC_0009915"
+      },
+      {
+        "iou": 0.0060047179927085565,
+        "pointing_game": 1.0,
+        "image": "ISIC_0010240"
+      },
+      {
+        "iou": 0.008948545861297539,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012506"
+      },
+      {
+        "iou": 0.0019453090262338817,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011402"
+      },
+      {
+        "iou": 0.002079002079002079,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013815"
+      },
+      {
+        "iou": 0.006349836293283064,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015260"
+      },
+      {
+        "iou": 0.0029725534233906925,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000190"
+      },
+      {
+        "iou": 0.00036011935384298795,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000100"
+      },
+      {
+        "iou": 0.004420526619258121,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014423"
+      },
+      {
+        "iou": 0.006896551724137931,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010444"
+      },
+      {
+        "iou": 0.002227538981932184,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014683"
+      },
+      {
+        "iou": 0.019056693663649357,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009860"
+      },
+      {
+        "iou": 0.015159171298635674,
+        "pointing_game": 0.0,
+        "image": "ISIC_0011213"
+      },
+      {
+        "iou": 0.0009904912836767037,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011223"
+      },
+      {
+        "iou": 0.005557842733635241,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012941"
+      },
+      {
+        "iou": 0.007355344883949003,
+        "pointing_game": 1.0,
+        "image": "ISIC_0009976"
+      },
+      {
+        "iou": 0.003833112192245319,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011146"
+      },
+      {
+        "iou": 0.004123144584936778,
+        "pointing_game": 1.0,
+        "image": "ISIC_0001374"
+      },
+      {
+        "iou": 0.006386258533362696,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013644"
+      },
+      {
+        "iou": 0.003036876355748373,
+        "pointing_game": 1.0,
+        "image": "ISIC_0016055"
+      },
+      {
+        "iou": 0.0014234875444839859,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012735"
+      },
+      {
+        "iou": 0.004978220286247666,
+        "pointing_game": 0.0,
+        "image": "ISIC_0016043"
+      },
+      {
+        "iou": 0.0017440411925919775,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000353"
+      },
+      {
+        "iou": 0.002369668246445498,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013172"
+      },
+      {
+        "iou": 0.004037685060565276,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013310"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014848"
+      },
+      {
+        "iou": 0.00017082336863682952,
+        "pointing_game": 0.0,
+        "image": "ISIC_0007087"
+      },
+      {
+        "iou": 0.0021937842778793418,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012511"
+      },
+      {
+        "iou": 0.006125574272588055,
+        "pointing_game": 1.0,
+        "image": "ISIC_0009972"
+      },
+      {
+        "iou": 0.0022211253701875616,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011336"
+      },
+      {
+        "iou": 0.0004906427419920095,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000325"
+      },
+      {
+        "iou": 0.0006660253089617405,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013594"
+      },
+      {
+        "iou": 0.0025098947774881745,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000034"
+      },
+      {
+        "iou": 0.00116335433834222,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014103"
+      },
+      {
+        "iou": 0.003706090879793748,
+        "pointing_game": 1.0,
+        "image": "ISIC_0010557"
+      },
+      {
+        "iou": 0.0002954209748892171,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010849"
+      },
+      {
+        "iou": 0.001555946421323231,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011329"
+      },
+      {
+        "iou": 0.011009174311926606,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014632"
+      },
+      {
+        "iou": 0.0033722201968647467,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014537"
+      },
+      {
+        "iou": 0.008933889219773675,
+        "pointing_game": 1.0,
+        "image": "ISIC_0005000"
+      },
+      {
+        "iou": 0.014102564102564103,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010236"
+      },
+      {
+        "iou": 0.0082930200414651,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012204"
+      },
+      {
+        "iou": 0.0011013215859030838,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015638"
+      },
+      {
+        "iou": 0.0029944017706027863,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013146"
+      },
+      {
+        "iou": 0.0016177957532861476,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015291"
+      },
+      {
+        "iou": 0.003973071404922194,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009967"
+      },
+      {
+        "iou": 0.0065116279069767444,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013817"
+      },
+      {
+        "iou": 0.0009506994431617547,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000498"
+      },
+      {
+        "iou": 0.003341566177538864,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015310"
+      },
+      {
+        "iou": 0.0068143100511073255,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015958"
+      },
+      {
+        "iou": 0.009032517061421117,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000253"
+      },
+      {
+        "iou": 0.0010424184107128537,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013052"
+      },
+      {
+        "iou": 0.0017671313567641862,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000487"
+      },
+      {
+        "iou": 0.004881672503449007,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011296"
+      },
+      {
+        "iou": 0.0005675368898978433,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000332"
+      },
+      {
+        "iou": 0.011595971925541654,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013035"
+      },
+      {
+        "iou": 0.0018437814280925244,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015179"
+      },
+      {
+        "iou": 0.003964757709251102,
+        "pointing_game": 1.0,
+        "image": "ISIC_0010356"
+      },
+      {
+        "iou": 0.0022579734688117415,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012442"
+      }
+    ],
+    "lime": [
+      {
+        "iou": 0.15310459210117136,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012706"
+      },
+      {
+        "iou": 0.08986423943227399,
+        "pointing_game": 1.0,
+        "image": "ISIC_0010192"
+      },
+      {
+        "iou": 0.09118299368121521,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010017"
+      },
+      {
+        "iou": 0.004900999803960008,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013000"
+      },
+      {
+        "iou": 0.1373804323265798,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013166"
+      },
+      {
+        "iou": 0.2612873829840113,
+        "pointing_game": 0.0,
+        "image": "ISIC_0003308"
+      },
+      {
+        "iou": 0.29518716577540105,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012332"
+      },
+      {
+        "iou": 0.04660797514241326,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014291"
+      },
+      {
+        "iou": 0.33992351294133716,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014729"
+      },
+      {
+        "iou": 0.023530541682673836,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000012"
+      },
+      {
+        "iou": 0.22255912674348088,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012855"
+      },
+      {
+        "iou": 0.01611770054138943,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012789"
+      },
+      {
+        "iou": 0.03019153771236879,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014190"
+      },
+      {
+        "iou": 0.01735700197238659,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013982"
+      },
+      {
+        "iou": 0.10135970333745364,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009083"
+      },
+      {
+        "iou": 0.25293718933574333,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010237"
+      },
+      {
+        "iou": 0.2102017702084819,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014898"
+      },
+      {
+        "iou": 0.3231170524942941,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010332"
+      },
+      {
+        "iou": 0.10801584050252629,
+        "pointing_game": 0.0,
+        "image": "ISIC_0016066"
+      },
+      {
+        "iou": 0.11597189200612881,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010100"
+      },
+      {
+        "iou": 0.00297441998810232,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015034"
+      },
+      {
+        "iou": 0.08984498576399874,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012679"
+      },
+      {
+        "iou": 0.007623165320286722,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013670"
+      },
+      {
+        "iou": 0.18432601880877744,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015129"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014393"
+      },
+      {
+        "iou": 0.11899620537118179,
+        "pointing_game": 1.0,
+        "image": "ISIC_0012510"
+      },
+      {
+        "iou": 0.004050769646232784,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013962"
+      },
+      {
+        "iou": 0.09699343393618247,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010263"
+      },
+      {
+        "iou": 0.2512638082756038,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013487"
+      },
+      {
+        "iou": 0.045302770508076885,
+        "pointing_game": 1.0,
+        "image": "ISIC_0000537"
+      },
+      {
+        "iou": 0.39,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014800"
+      },
+      {
+        "iou": 0.33212132810257394,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012382"
+      },
+      {
+        "iou": 0.4103365559351603,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012806"
+      },
+      {
+        "iou": 0.10157892860961613,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012086"
+      },
+      {
+        "iou": 0.07437328225201965,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015158"
+      },
+      {
+        "iou": 0.07428302773859896,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013025"
+      },
+      {
+        "iou": 0.02644892162953759,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012965"
+      },
+      {
+        "iou": 0.3717687074829932,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000232"
+      },
+      {
+        "iou": 0.15771812080536912,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015941"
+      },
+      {
+        "iou": 0.09040167447423503,
+        "pointing_game": 0.0,
+        "image": "ISIC_0016057"
+      },
+      {
+        "iou": 0.3146140152128176,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014428"
+      },
+      {
+        "iou": 0.16001945525291827,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009915"
+      },
+      {
+        "iou": 0.018565808544413004,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010240"
+      },
+      {
+        "iou": 0.12400086411751998,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012506"
+      },
+      {
+        "iou": 0.22005966061910118,
+        "pointing_game": 0.0,
+        "image": "ISIC_0011402"
+      },
+      {
+        "iou": 0.06190092924562816,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013815"
+      },
+      {
+        "iou": 0.09389849838433757,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015260"
+      },
+      {
+        "iou": 0.17427763819095476,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000190"
+      },
+      {
+        "iou": 0.02290648162750355,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000100"
+      },
+      {
+        "iou": 0.20647419072615922,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014423"
+      },
+      {
+        "iou": 0.2328525641025641,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010444"
+      },
+      {
+        "iou": 0.15046200524065645,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014683"
+      },
+      {
+        "iou": 0.2,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009860"
+      },
+      {
+        "iou": 0.23111896943672644,
+        "pointing_game": 0.0,
+        "image": "ISIC_0011213"
+      },
+      {
+        "iou": 0.10692416391898257,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011223"
+      },
+      {
+        "iou": 0.13295376337358444,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012941"
+      },
+      {
+        "iou": 0.05261563320541305,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009976"
+      },
+      {
+        "iou": 0.3995706838393131,
+        "pointing_game": 1.0,
+        "image": "ISIC_0011146"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0001374"
+      },
+      {
+        "iou": 0.36094047871213725,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013644"
+      },
+      {
+        "iou": 0.30050969470863326,
+        "pointing_game": 0.0,
+        "image": "ISIC_0016055"
+      },
+      {
+        "iou": 0.02143010984277407,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012735"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0016043"
+      },
+      {
+        "iou": 0.00521909318255953,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000353"
+      },
+      {
+        "iou": 0.09642389065718031,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013172"
+      },
+      {
+        "iou": 0.004207784401142113,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013310"
+      },
+      {
+        "iou": 0.037185037185037184,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014848"
+      },
+      {
+        "iou": 0.46716136892236126,
+        "pointing_game": 0.0,
+        "image": "ISIC_0007087"
+      },
+      {
+        "iou": 0.24281269446172993,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012511"
+      },
+      {
+        "iou": 0.39441907661085746,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009972"
+      },
+      {
+        "iou": 0.06625322997416021,
+        "pointing_game": 0.0,
+        "image": "ISIC_0011336"
+      },
+      {
+        "iou": 0.010229551127296534,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000325"
+      },
+      {
+        "iou": 0.08426392978977754,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013594"
+      },
+      {
+        "iou": 0.10609719287654694,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000034"
+      },
+      {
+        "iou": 0.3306244653550043,
+        "pointing_game": 1.0,
+        "image": "ISIC_0014103"
+      },
+      {
+        "iou": 0.4598698481561822,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010557"
+      },
+      {
+        "iou": 0.057638300717692686,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010849"
+      },
+      {
+        "iou": 0.14644277507733097,
+        "pointing_game": 0.0,
+        "image": "ISIC_0011329"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014632"
+      },
+      {
+        "iou": 0.05760379596678529,
+        "pointing_game": 0.0,
+        "image": "ISIC_0014537"
+      },
+      {
+        "iou": 0.14788352655702347,
+        "pointing_game": 0.0,
+        "image": "ISIC_0005000"
+      },
+      {
+        "iou": 0.08835208471211119,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010236"
+      },
+      {
+        "iou": 0.022682053322721846,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012204"
+      },
+      {
+        "iou": 0.2831363668530182,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015638"
+      },
+      {
+        "iou": 0.09716105067657203,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013146"
+      },
+      {
+        "iou": 0.212360415864459,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015291"
+      },
+      {
+        "iou": 0.09957642862450769,
+        "pointing_game": 0.0,
+        "image": "ISIC_0009967"
+      },
+      {
+        "iou": 0.04418372441337993,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013817"
+      },
+      {
+        "iou": 0.1748474841887278,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000498"
+      },
+      {
+        "iou": 0.18647922265867273,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015310"
+      },
+      {
+        "iou": 0.0,
+        "pointing_game": 0.0,
+        "image": "ISIC_0015958"
+      },
+      {
+        "iou": 0.31265306122448977,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000253"
+      },
+      {
+        "iou": 0.03292641953186247,
+        "pointing_game": 1.0,
+        "image": "ISIC_0013052"
+      },
+      {
+        "iou": 0.08164158207910395,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000487"
+      },
+      {
+        "iou": 0.3865225225225225,
+        "pointing_game": 0.0,
+        "image": "ISIC_0011296"
+      },
+      {
+        "iou": 0.08962726026503036,
+        "pointing_game": 0.0,
+        "image": "ISIC_0000332"
+      },
+      {
+        "iou": 0.019847856154910096,
+        "pointing_game": 0.0,
+        "image": "ISIC_0013035"
+      },
+      {
+        "iou": 0.2932547793675604,
+        "pointing_game": 1.0,
+        "image": "ISIC_0015179"
+      },
+      {
+        "iou": 0.0556729666082966,
+        "pointing_game": 0.0,
+        "image": "ISIC_0010356"
+      },
+      {
+        "iou": 0.25634028892455857,
+        "pointing_game": 0.0,
+        "image": "ISIC_0012442"
+      }
+    ],
+    "shap": []
+  }
+}

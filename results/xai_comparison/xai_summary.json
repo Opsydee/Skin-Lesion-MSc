@@ -1,0 +1,12 @@
+{
+  "gradcam": {
+    "mean_iou": 0.004082829851975151,
+    "std_iou": 0.0037609374826024456,
+    "mean_pointing_game": 0.57
+  },
+  "lime": {
+    "mean_iou": 0.14708901512687148,
+    "std_iou": 0.1247427330733336,
+    "mean_pointing_game": 0.14
+  }
+}
